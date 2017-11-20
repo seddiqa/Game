@@ -1,0 +1,472 @@
+
+body{
+	margin:0 auto; height:2890px;
+}
+#data { width:1200px; margin:0 auto;
+	
+}
+body #line{
+   background-color:yellow;
+   width:100%;
+   height:5px;
+   float:left;
+}
+
+
+header img {
+   width: 100%;
+   height: 270px;
+}
+#head {
+  background-color:silver;
+  width: 100%;
+  height:45px;
+  float:left;
+
+}
+#head input{
+	background-color:silver;
+	width:200px;
+	height:37px;
+	margin:3px 0px 0px 5px;
+	float:left;
+	-webkit-transition: width .35s ease-in-out;
+	transition: width .35s ease-in-out;
+	opacity: 0.4;
+}
+#head input:focus{
+	width: 350px;
+	opacity: 0.8;
+	color: yellow;
+}
+
+body nav{
+   background-color:black;
+   width:100%;
+   height:50px;
+   border-radius: 0 0 4px 4px;
+}
+
+body nav ul {
+   float:right;
+   margin: 0px;
+   padding:0px;
+}
+
+body nav ul li {
+   list-style-type:none;
+   display:inline;
+   padding: 0px 20px 14px 20px;
+   margin:12px 10px;
+   float:right;
+}
+
+body nav ul li a{
+   font-size:18px;
+   color: white;
+   text-decoration:none;
+
+}
+nav ul li :hover{
+  color:gray;
+
+}
+
+body #data aside{
+   width: 29.6%;
+   height:1500px;
+   float:left;
+   border-right:1px solid black;
+
+}
+body #data aside h2{
+	background-color:black;
+	float:left;
+	width:95%;
+	height: 45px;
+	margin: 15px 0px 0px 0px;
+	padding:10px auto;
+
+}
+body #data aside h2 a{
+	color: white;
+	float:right;
+	padding:7px 27%;
+	background-color: black;
+}
+body #data aside ul{
+	width:100%;
+	float: right;
+	margin:15px 0px 0px 0px;
+	padding:14px 0px 15px 10px;
+}
+body #data aside ul li{
+	list-style-type:none;
+	float:right;
+	width: 100%;
+	padding:12px 0px 13px 0px;
+    border-bottom: 1px solid lightgray;
+	
+}
+body #data aside ul li:last-child{
+	border-bottom:none;
+}
+body #data aside ul li a{
+	text-decoration:none;
+	float: right;
+	direction:rtl;
+	font-size:17px;
+	color:black;
+	padding: 7px 4px 3px 7px;
+	margin: 2px 20px 2px 0px;
+	text-align:justify;
+	width: 94.5%;
+}
+body  #data aside #aside-img {
+	float:left;
+	width:350px;
+	height:250px;
+	
+	
+}
+body  #data aside i{
+	text-align: center;
+	float:left;
+	font-size: 13px;
+	width:100%;
+	color: gray;
+	margin-top:10px;
+	
+}
+aside #aside-img2 img{
+	float:left;
+	width:350px;
+	height:170px;
+	margin: 20px 25px -40% 0px;
+	
+}
+aside #aside-img2 #icon-pic{
+	float: right;
+	width: 60px;
+	height:60px;
+	margin: -10px 13px -13px 8px;
+}
+aside #aside-img2 h4{
+	color:white;
+	font-size:24px;
+	text-align:center;
+	float:right;
+	margin: 10px 25px 0px 0px;
+}
+aside #aside-img2 > div > p{
+	background-color:black;
+	float:right;
+	color:white;
+	padding: 0px 15px 0px 0px;
+	margin: 20px 10px -20px 30px;
+	font-size:18px;
+	font-style:bold;
+	
+}
+aside #aside-img2 #button #btn-1{
+	background-color:#331099;
+	color:white;
+	width:80px;
+	height:30px;
+	border-radius:4px;
+	float:left;
+	margin-right:5px;
+	margin:65px 15px 0px 12px;
+}
+
+aside #aside-img2 #button #btn-2{
+	background-color:#331099;
+	color:white;
+	width:80px;
+	height:30px;
+	border-radius:4px;
+	float:right;
+	margin-left:5px;
+	margin:40px;
+	padding:1px 6px;
+	
+	
+}
+aside #aside-img2 #photos {
+	background-color: white;
+	float: left;
+	width: 333.8px;
+	height: 100px;
+	border: 9px solid;
+	border-color: goldenrod goldenrod goldenrod yellow;
+	margin: -26px 0px 17px 0px;
+}
+aside #aside-img2 #likes{
+	float: left;
+	width:320px;
+	height: 80px;
+	margin: 0px 0px 0px 0px;
+	padding: 5px 16px 5px 10px;
+	
+}
+
+
+section #input{
+	position: absolute;
+	float: left;
+	margin: 35px 0px 0px 0px;
+	width: 33%;
+	top: 400px;
+}
+
+section #input input {
+	width: 100%;
+	padding: 12px 20px;
+	margin: 8px 0;
+	display: inline-block;
+	border: 1px solid #ccc;
+	box-sizing: border-box;
+}
+section button{
+	background-color: #FFCC00;
+	color: white;
+	padding: 14px 20px;
+	margin: 20px 0;
+	border: none;
+	cursor: pointer;
+	width: 100%;
+}
+section .cancelbtn{
+	padding: 14px 20px;
+	background-color: #FF6666;
+}
+section .cancelbtn,.signupbtn{
+	float: left;
+	width: 50%;
+}
+section label{
+	float: left;
+}
+
+body section {
+  background-color: lightgray;
+  width:100%;
+  height:500px;
+  margin: 50px 0 20px 0;
+  border-radius: 4px 4px 0 0;
+
+}
+.thumbnails img 
+{
+	height:100px;
+	border: 4px solid #555;
+	padding:3px;
+	margin:35px 0px 0px 0px;
+}
+.thumbnails img:hover{
+	border: 4px solid #00ccff;
+	cursor:pointer;
+}
+section .gallery{
+	margin: 45px 100px 0px 0px;
+	padding: 10px 50px 10px 0px;
+	
+	
+}
+section .preview{
+	margin: 45px 50px 0px 0px;
+}
+
+article{
+	float:right;
+	width: 70%;
+	height: 1000px;
+	
+}
+article #head-article{
+	float: right;
+	width: 95%;
+	height: 500px;
+	margin: 22px 22px 0px 0px;
+	border-bottom: 1px solid gray;
+}
+
+article #head-article .part-1{
+	float: left;
+	width: 215px;
+	height: 40px;
+	margin: 0px 10px 0px 10px;
+}
+
+article #head-article .part-1 > a span{
+	background-color: #FFCC99;
+	float: left;
+	width: 100%;
+	height: 35px;
+	margin: 0px 0px 0px 0px;
+	direction: ltr;
+	padding: 5px 1px 1px 1px;
+	text-align: center;
+	border-bottom: 1px solid #d9d9d9;
+	border-top: 1px solid #d9d9d9;
+	color: gray;
+}
+article #head-article .imag img{
+	float: left;
+	width: 100%;
+	height: 135px;
+	margin-top: 25px;
+	vertical-align: middle;
+}
+
+article #head-article .part-1 > a span:hover{
+	text-decoration:underline;
+}
+
+article #head-article .imag .footer-imag{
+	background-color: #FFFFCC;
+	float:left;
+	width: 100%;
+	height: 25px;
+	direction: ltr;
+	padding: 3px 0px;
+	color: gray;
+}
+article #head-article  .part-1 ul{
+	float: left;
+	margin: 4px 3px 0px 0px;
+	width: 217px;
+	padding:10px 40px 0px 0px;
+}
+article #head-article  .part-1 ul li{
+	list-style-type:none;
+	float:left;
+	padding: 8px 0px 8px 0px;
+	border-bottom: 1px solid #d9d9d9;
+	width: 215px;
+	direction: ltr;
+}
+article #head-article  .part-1 ul li:last-child{
+	border-bottom:none;
+	
+}
+article #head-article  .part-1 ul li a{
+	float: left;
+	text-align: left;
+	direction: ltr;
+	color: black;
+}
+article #head-article  .part-1 ul li a strong{
+	border-left: 3px solid yellow;
+	padding: 2px 4px 2px 0px;
+}
+
+
+
+article #head-article .part-2{
+	float: left;
+	width: 215px;
+	height: 40px;
+	margin: 10px 40px 0px 20px;
+}
+
+article #head-article .part-2 > a span{
+	background-color:#FFCC99;
+	float: left;
+	width: 100%;
+	height: 35px;
+	margin: 0px 0px 0px 6px;
+	direction: ltr;
+	padding: 6px 20px 0px 0px;
+	text-align: center;
+	border-top: 1px solid #d9d9d9;
+	border-bottom: 1px solid #d9d9d9;
+	color: red;
+}
+
+article #head-article .part-2 > a span:hover{
+	text-decoration:underline;
+}
+
+
+article #head-article .part-2 .imag img{
+	float: left;
+	width: 100%;
+	height: 135px;
+	margin-top:25px;
+	margin:25px 0px 0px 10px; 
+}
+
+article #head-article .part-2 .imag .footer-imag{
+	background-color:#FFFFCC;
+	float: left;
+	width: 100%;
+	height:25px;
+	direction:ltr;
+	color: gray;
+	margin-left:10px;
+}
+
+article #head-article .part-2 ul{
+	float: left;
+	margin: 4px 3px 0px 0px;
+	width: 217px;
+	padding:4px 40px 9px 10px;
+}
+article #head-article .part-2 ul li{
+	list-style-type:none;
+	float:right;
+	padding:8px 0px 8px 0px;
+	border-bottom: 1px solid #d9d9d9;
+	width:215px;
+	direction: ltr;
+}
+article #head-article .part-2 ul li:last-child {
+	border-bottom:none;
+}
+
+article #head-article .part-2 ul li a{
+	 list-style-type:none;
+     float: left;
+	 text-align: left;
+	 direction:ltr;
+	 color:black;
+}  
+article #head-article .part-2 ul li a strong{
+     border-left:3px solid yellow;
+     padding:2px 4px 2px 0px;
+}	 
+
+
+
+body footer{
+	background-color: black;
+	width:132%;
+	height:400px;
+	float:left;
+	margin: 0px -16% 0px 0px;
+}
+body footer #footer-content{
+	background-color: white;
+	
+}
+footer #footer-content .first-note{
+	float:left;
+	width: 400px;
+	height: 200px;
+	margin: 50px 20px 0px -200px;
+}
+footer #footer-content .first-note h2{
+	text-align: center;
+	color: white;
+	width: 100%;
+	border-bottom: 1px solid #4C515C;
+	padding-bottom: 8px;
+}
+footer #footer-content .first-note  p{
+	float: left;
+	width: 50%;
+	padding: 5px 28px 0px 0px;
+	direction: ltr;
+	color: white;
+}
